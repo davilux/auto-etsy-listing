@@ -1,12 +1,19 @@
 {
-  "name": "auto-etsy-listing",
-  "version": "1.0.0",
-  "description": "This application allows for a streamlined upload process.",
-  "main": "index.js",
+  "name": "etsy-auto-listings",
+  "version": "0.0.1",
+  "description": "A simple Node app that makes requests to Etsy’s Open API.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "4.x",
+    "hbs": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=12 <15"
+  },
+  "license": "MIT"
 }
